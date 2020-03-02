@@ -1,2 +1,0 @@
-# lives
-EMBED LIVE PLAYERS
