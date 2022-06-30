@@ -1,0 +1,24 @@
+body{
+background-color: #181818;
+color: #fff;
+}
+.tumb1{
+    border: none;
+    margin: 5px;
+}
+.tumb1:hover{
+    border: solid 3px #eb99ff;
+}
+.bloco{
+/* display: flex;
+justify-content: space-between;
+align-items: flex-start; */
+display:inline-block;
+background-color: #333;
+padding: 15px;
+border-radius: 5px;
+overflow-x: visible;
+}
+h2{
+margin-top: 30px;
+}
