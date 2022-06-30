@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>PÁGINA DAS LIVES</title>
+<style>
+body{
+background-color: #333;
+color: #ccc;
+}
+.div1{
+background-color: #3333cc;  
+}  
+</style>
+</head>
+<body> 
+<h1 align="center">ESTES SÃO NOSSOS CANAIS DE LIVES E VÍDEOS, ESCOLHA ONDE ASSISTIR</h1>
+  
+<h2 align="center">YOUTUBE</h2>
+<p align="center"> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KCoWIRTD-Ro" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+  
+<br>
+<h2 align="center">TWITCH</h2>
+
+  
+<br />
+<div align="center" class="div1">  
+<!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "linuxpovaotv"
+  });
+</script>
+</div>
+  
+</body> 
+</html> 
