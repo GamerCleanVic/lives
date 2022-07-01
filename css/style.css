@@ -7,7 +7,9 @@ color: #fff;
     margin: 5px;
 }
 .tumb1:hover{
-    border: solid 3px #eb99ff;
+    border-right: solid 7px #7d60ff;
+    border-left: solid 7px #7d60ff;
+    border-radius: 5px;
 }
 .bloco{
 /* display: flex;
@@ -17,8 +19,31 @@ display:inline-block;
 background-color: #333;
 padding: 15px;
 border-radius: 5px;
-overflow-x: visible;
+box-sizing: border-box;
+}
+.bloco a{
+    text-decoration: none;
 }
 h2{
 margin-top: 30px;
+}
+.ref0{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.ref1 a{
+    text-decoration: none;
+    background-color: #7d60ff;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+.ref1 a:hover{
+    background-color: #181818;
+    color: #7d60ff;
 }
