@@ -12,14 +12,14 @@ color: #fff;
     border-radius: 5px;
 }
 .bloco{
-/* display: flex;
-justify-content: space-between;
-align-items: flex-start; */
-display:inline-block;
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
 background-color: #333;
 padding: 15px;
 border-radius: 5px;
-box-sizing: border-box;
 }
 .bloco a{
     text-decoration: none;
@@ -46,4 +46,43 @@ margin-top: 30px;
 .ref1 a:hover{
     background-color: #181818;
     color: #7d60ff;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
 }
+@media only screen and (max-width: 720px){
+    .ref0{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-color: #333;
+        padding: 15px;
+        border-radius: 5px;
+        box-sizing: border-box;   
+    }
+    .ref1{   
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+    }
+    .ref1 a{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .bloco{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #333;
+        padding: 15px;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .ref1 a{
+        padding-left: 20px;
+        padding-right: 20px;
+        ;
+    }
+}    
