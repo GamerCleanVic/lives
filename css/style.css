@@ -77,10 +77,28 @@ margin-top: 30px;
         border-radius: 5px;
     }
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     .ref1 a{
         padding-left: 20px;
         padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 599px){
+    .ref1 a{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-top: 15px; 
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .ref1 a{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 30px; 
+        margin-bottom: 30px;
+        font-size: 8px;
     }
 }    
 .texto1{    
