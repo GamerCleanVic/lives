@@ -17,15 +17,16 @@ color: #fff;
     border-radius: 5px;    
 }
 .bloco a{
-    text-decoration: none;  
-    margin: auto;      
+    text-decoration: none; 
+    margin: auto;
+    border: solid 2px transparent;    
 }
 .bloco a:hover{    
-    border-top: solid 7px #7d60ff;
-    border-radius: 5px;    
+    border-radius: 5px;      
+    background-color: rgb(42, 42, 255, 54%);
 }
 h2{
-margin-top: 30px;
+    margin-top: 30px;
 }
 .ref0{
     display:flex;
