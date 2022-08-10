@@ -16,7 +16,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgba(22, 9, 66, 0.39);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -32,7 +32,7 @@ body {
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  background-color: rgba(22, 9, 66, 0.39);
 }
 
 .sidebar .closebtn {
@@ -46,14 +46,23 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: rgba(22, 9, 66, 0.39);
+  border-color: rgba(53, 38, 102, 0.39);
+  border-style: groove;
+  border-color: rgba(53, 38, 102, 0.39);
   color: white;
   padding: 10px 15px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: rgba(30, 12, 88, 0.43);
+  border: rgba(53, 38, 102, 0.39);
+  border-color: rgba(53, 38, 102, 0.39);
+  border-style: groove;
+  border-radius: none;
+  padding: 6px 12.4px;
+  margin: 1px;
 }
 
 #main {
@@ -75,13 +84,17 @@ body {
   <a href="index.html">INÍCIO</a>
   <a href="react.html">CANAIS</a>
   <a href="codar.html">CODAR</a>  
-  <a href="contatos.html">CONTATOS</a>
+  <a href="contatos.html" class="active">CONTATOS</a>
   <a href="doar.html">DOAR</a>
 </div>
 
 <div id="main">
-  <button class="openbtn" onclick="openNav()">☰ MENU</button>  
-  <h2 class="colab2">CONTATOS SOCIAIS</h2>
+  <button class="openbtn" onclick="openNav()">☰ MENU</button><br>
+  <div class="blocoTexto1">  
+    <h2 class="colab2">
+      CONTATOS SOCIAIS
+    </h2>
+  </div>
 <div class="ref0">     
     <div class="ref1">
       <a href="https://twitch.tv/jottalpb" target="_blank" class="ref5">

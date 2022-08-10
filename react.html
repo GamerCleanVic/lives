@@ -17,7 +17,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgba(30, 12, 88, 0.43);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -29,11 +29,12 @@ body {
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s;
+  transition: 0.3s;  
 }
 
 .sidebar a:hover {
   color: #f1f1f1;
+  background-color: rgba(30, 12, 88, 0.43);
 }
 
 .sidebar .closebtn {
@@ -47,14 +48,23 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: rgba(22, 9, 66, 0.39);
+  border-color: rgba(53, 38, 102, 0.39);
+  border-style: groove;
+  border-color: rgba(53, 38, 102, 0.39);
   color: white;
   padding: 10px 15px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: rgba(30, 12, 88, 0.43);
+  border: rgba(53, 38, 102, 0.39);
+  border-color: rgba(53, 38, 102, 0.39);
+  border-style: groove;
+  border-radius: none;
+  padding: 6px 12.4px;
+  margin: 1px;
 }
 
 #main {
@@ -74,15 +84,19 @@ body {
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
   <a href="index.html">INÍCIO</a>
-  <a href="react.html">CANAIS</a>
+  <a href="react.html" class="active">CANAIS</a>
   <a href="codar.html">CODAR</a>
   <a href="contatos.html">CONTATOS</a>
   <a href="doar.html">DOAR</a>
 </div>
 
 <div id="main">
-  <button class="openbtn" onclick="openNav()">☰ MENU</button>  
-  <h1>CANAIS PARA ASSISTIR</h1>
+  <button class="openbtn" onclick="openNav()">☰ MENU</button><br>
+  <div class="blocoTexto1">
+    <h1>
+      CANAIS PARA ASSISTIR
+    </h1>
+  </div>
   <h2>VIAGENS</h2>
   <div class="bloco">
     <a href="https://www.youtube.com/c/GeorgiaCaney/videos" target="_blank">

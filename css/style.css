@@ -1,5 +1,7 @@
 body{
-background-color: #181818;
+background-image: url("/imagens/floresta.jpg");
+background-size: cover;
+background-repeat: no-repeat;
 color: #fff;
 }
 .tumb1{
@@ -12,9 +14,11 @@ color: #fff;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #333;
+    background-color: rgba(22, 9, 66, 0.39);
     padding: 15px;
-    border-radius: 5px;    
+    border-radius: 5px;
+    border-style: groove;
+    border-color: rgba(53, 38, 102, 0.39);
 }
 .bloco a{
     text-decoration: none; 
@@ -23,7 +27,7 @@ color: #fff;
 }
 .bloco a:hover{    
     border-radius: 5px;      
-    background-color: rgb(42, 42, 255, 54%);
+    background-color: rgba(23, 0, 66, 0.58);
 }
 h2{
     margin-top: 30px;
@@ -31,37 +35,44 @@ h2{
 .ref0{
     display:flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: #333;
+    align-items: center;    
     padding: 15px;
-    border-radius: 5px;  
+    border-radius: 5px;
+    background-color: rgba(22, 9, 66, 0.39);
+    border-style: groove;
+    border-color: rgba(53, 38, 102, 0.39); 
     margin-top: 20px;  
 }
 .ref5 {
     text-decoration: none;
-    background-color: #7d60ff;
-    color: #fff;
+    background-color: rgba(30, 12, 88, 0.43);
+    border-style: groove;
+    border-color: rgba(30, 12, 88, 0.43);
+    color: #ccc;
     padding: 7px;
     border-radius: 5px;
+    font-weight: bold;
 }
 .ref5:hover{
-    background-color: #181818;
+    background-color: rgba(30, 12, 88, 0.43);
+    border-style: groove;
+    border-color: #7d60ff;
     color: #7d60ff;
     font-weight: bold;
     padding-right: 15px;
     padding-left: 15px;
 }
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1701px){
     .bloco{
         display: flex;
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        background-color: #333;
         padding: 15px;
         border-radius: 5px;
-        width: 750px;
+        width: 720px;
+        margin: 0px auto;
     }
 }
 @media only screen and (max-width: 720px){
@@ -69,7 +80,6 @@ h2{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        background-color: #333;
         padding: 15px;
         border-radius: 5px;
         box-sizing: border-box;   
@@ -91,8 +101,7 @@ h2{
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
-        background-color: #333;
+        align-items: center;        
         padding: 15px;
         border-radius: 5px;
     }
@@ -130,7 +139,7 @@ h2{
     }
 }    
 .texto1{    
-    background-color: #181818;
+    background-color: rgba(30, 12, 88, 0.43);
     color: #fff;
     font-weight: bold;
     width: 150px;
@@ -145,6 +154,8 @@ h2{
     text-align: center;  
     padding-top: 4px; 
     padding-bottom: 2px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px
 }
 
 /* Modal */
@@ -252,8 +263,19 @@ h2{
 }
 .blocoTexto1{
     display: inline-block;
+    background-color: rgba(22, 9, 66, 0.39);
+    border-style: groove;
+    border-color: rgba(53, 38, 102, 0.39);
+    padding: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .textoNovo{
     text-align: justify;
     font-size: 1.4rem;
+}
+.active{
+    background-color: rgba(30, 12, 88, 0.43);
 }

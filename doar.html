@@ -17,7 +17,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgba(22, 9, 66, 0.39);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -29,11 +29,12 @@ body {
   font-size: 25px;
   color: #818181;
   display: block;
-  transition: 0.3s;
+  transition: 0.3s;  
 }
 
 .sidebar a:hover {
   color: #f1f1f1;
+  background-color: rgba(22, 9, 66, 0.39);
 }
 
 .sidebar .closebtn {
@@ -47,14 +48,23 @@ body {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: rgba(22, 9, 66, 0.39);
+  border-color: rgba(53, 38, 102, 0.39);
+  border-style: groove;
+  border-color: rgba(53, 38, 102, 0.39);
   color: white;
   padding: 10px 15px;
-  border: none;
+  border: none;  
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: rgba(30, 12, 88, 0.43);
+  border: rgba(53, 38, 102, 0.39);
+  border-color: rgba(53, 38, 102, 0.39);
+  border-style: groove;
+  border-radius: none;
+  padding: 6px 12.4px;
+  margin: 1px; 
 }
 
 #main {
@@ -80,7 +90,7 @@ background-color: #fff;
   <a href="react.html">CANAIS</a>
   <a href="codar.html">CODAR</a>
   <a href="contatos.html">CONTATOS</a>
-  <a href="doar.html">DOAR</a>
+  <a href="doar.html" class="active">DOAR</a>
 </div>
 
 <div id="main">
