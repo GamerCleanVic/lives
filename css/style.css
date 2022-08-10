@@ -1,5 +1,5 @@
 body{
-background-image: url("/imagens/floresta.jpg");
+background-image: url("../imagens/floresta.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 color: #fff;
