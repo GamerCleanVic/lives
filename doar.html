@@ -67,6 +67,9 @@ body {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+.tumb1{
+background-color: #fff;
+}
 </style>
 </head>
 <body>
@@ -81,11 +84,39 @@ body {
 </div>
 
 <div id="main">
-  <button class="openbtn" onclick="openNav()">☰ MENU</button>  
-  <h1>SITE DE CONTATOS E CANAIS P/ REACT</h1>
-  <p>Clique no menu à esquerda para acessar as outras páginas.</p>
+  <button class="openbtn" onclick="openNav()">☰ MENU</button> 
+    <div class="blocoTexto1">
+        <h2>AJUDA AO PROJETO</h2>        
+        <p class="textoNovo">
+            Escaneando as imagens com o App PicPay no seu celular (já cadastrados todos os dados e documentos adequados) você pode ajudar ficarmos online e melhorar nossos equipamentos para os conteúdos. Clique na imagem para ampliar, e para fechar no X acima à direita da página.
+        </p>
+    </div>
+
+    <div class="bloco">
+        <img id="myImg1" class="ImgUm" src="imagens/PicPayAssinaturas.png" alt="Assinaturas" style="width: 12rem;max-width: 21rem">
+        <div id="myModal1" class="modal">
+            <span class="close1">&times;</span>
+            <img class="modal-content" id="img01">        
+            <div id="caption"><script type="text/javascript" src="js/modal1.js"></script></div>
+        </div>
+
+        <img id="myImg2" class="ImgDois" src="imagens/Pix.png" alt="Pix" style="width: 12rem;max-width: 21rem">
+        <div id="myModal2" class="modal">
+            <span class="close2">&times;</span>
+            <img class="modal-content" id="img02">        
+            <div id="caption"><script type="text/javascript" src="js/modal1.js"></script></div>
+        </div>
+
+        <img id="myImg3" class="ImgTres" src="imagens/PicPayCard.png" alt="Cartão PicPay" style="width: 12rem;max-width: 21rem">
+        <div id="myModal3" class="modal">
+            <span class="close3">&times;</span>
+            <img class="modal-content" id="img03">        
+            <div id="caption"><script type="text/javascript" src="js/modal1.js"></script></div>
+        </div>
+    </div>
+
   <h2 class="colab2">COLABORADORES E REPOSITÓRIO</h2>
-  <div class="ref0">   
+  <div class="ref0">
       <div class="ref1">
         <a href="https://github.com/GamerCleanVic/lives/tree/gh-pages" target="_blank" class="ref5">
           REPO GITHUB
