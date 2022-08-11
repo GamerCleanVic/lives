@@ -10,10 +10,10 @@ color: #fff;
 }
 .bloco{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items:flex-start;
     background-color: rgba(22, 9, 66, 0.39);
     padding: 15px;
     border-radius: 5px;
@@ -34,8 +34,8 @@ h2{
 }
 .ref0{
     display:flex;
-    justify-content: space-around;
-    align-items: center;    
+    justify-content:space-around;
+    align-items:center;    
     padding: 15px;
     border-radius: 5px;
     background-color: rgba(22, 9, 66, 0.39);
@@ -62,28 +62,42 @@ h2{
     padding-right: 15px;
     padding-left: 15px;
 }
+
 @media only screen and (min-width: 1701px){
+    .titleCont{
+        margin: 0px auto;
+        margin-bottom: 10px;
+    }
     .bloco{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: flex-start;
         padding: 15px;
         border-radius: 5px;
         width: 720px;
         margin: 0px auto;
+        margin-right: 30px;        
     }
     #main h2{
         text-align: center;
         margin-bottom: 3px;
         margin-top: 40px;
     }
+    .chefeCont{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items:flex-start;
+        flex-wrap: wrap;
+    }
 }
 @media only screen and (max-width: 720px){
     .ref0{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         flex-direction: column;
         padding: 15px;
         border-radius: 5px;
@@ -94,12 +108,12 @@ h2{
         margin-bottom: 10px; 
     }
     .ref5{
-        padding-right: 250px;
-        padding-left: 250px;
+        padding-right: 100px;
+        padding-left: 100px;
     }
     .ref5:hover{
-        padding-right: 250px;
-        padding-left: 250px;
+        padding-right: 100px;
+        padding-left: 100px;
     }
     .bloco{
         display: flex;
@@ -110,6 +124,9 @@ h2{
         padding: 15px;
         border-radius: 5px;
     }
+    .colab2{
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 700px){
     .ref5{
@@ -119,6 +136,9 @@ h2{
     .ref5:hover{
         padding-right: 150px;
         padding-left: 150px;
+    }
+    .colab2{
+        text-align: center;
     }
 }
 @media only screen and (max-width: 650px){
@@ -131,6 +151,61 @@ h2{
         padding-right: 100px;
         padding-left: 100px;
     }
+    .colab2{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 393px){
+    .ref5{
+        padding-right: 25px;
+        padding-left: 25px;
+        font-size: 16px;
+    }
+    .ref5:hover{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .colab2{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 390px){
+    .ref5{
+        padding-right: 25px;
+        padding-left: 25px;
+        font-size: 16px;
+    }
+    .ref5:hover{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .colab2{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 375px){
+    .ref5{
+        padding-right: 15px;
+        padding-left: 15px;
+        font-size: 8px;
+    }
+    .ref5:hover{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .colab2{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 360px){
+    .ref5{
+        padding-right: 25px;
+        padding-left: 25px;
+        font-size: 16px;
+    }    
+    .colab2{
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 350px){
     .ref5{
@@ -142,6 +217,23 @@ h2{
         padding-right: 15px;
         padding-left: 15px;
     }
+    .colab2{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 350px){
+    .ref5{
+        padding-right: 35px;
+        padding-left: 35px;
+        font-size: 11px;
+    }    
+    .colab2{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+.colab2{
+    text-align: center;
 }    
 .texto1{    
     background-color: rgba(30, 12, 88, 0.43);
