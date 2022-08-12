@@ -252,7 +252,8 @@ h2{
     padding-top: 4px; 
     padding-bottom: 2px;
     border-top-right-radius: 5px;
-    border-top-left-radius: 5px
+    border-top-left-radius: 5px;
+    font-size: 0.9rem;
 }
 
 /* Modal */
