@@ -33,6 +33,9 @@ min-height: 100vh; height: 100%;
 h2{
     margin-top: 30px;
 }
+.ref1{
+    border: solid 0.9rem rgb(0,0,0,0px);
+}
 .ref0{
     display:flex;
     justify-content:space-around;
