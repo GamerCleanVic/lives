@@ -12,5 +12,5 @@ font-family: Finger Paint, sans-serif;
 text-shadow: 1px 2px 1px rgb(0, 33 , 0, 90%);
 "
 >
-bom Dia
+BOM DIA
 </pre>
