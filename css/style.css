@@ -382,7 +382,7 @@ h2{
     background-color: rgba(30, 12, 88, 0.43);
 }
 .blueIn{
-    filter: hue-rotate(114deg);
+    background-color: #181818;
 }
 .blueIn2{
     filter: hue-rotate(340deg);
