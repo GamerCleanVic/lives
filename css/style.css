@@ -384,7 +384,3 @@ h2{
 .blueIn{
     background-color: #181818;
 }
-.blueIn2{
-    filter: hue-rotate(340deg);
-    filter:saturate(0.2);
-}
